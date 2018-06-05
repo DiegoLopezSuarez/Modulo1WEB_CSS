@@ -1,0 +1,33 @@
+*,
+*::before, *::after,
+*:before, *:after,
+{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2rem;
+}
+
+section div {
+    width: 50%;
+    float: left;
+} 
+
+section div .text_wrapper {
+    width: 60%;
+}
+
+section div .img_wrapper {
+    width: 40%;
+    padding: 2rem;
+    display: none
+}
+
+section div.wrapper:hover div.img_wrapper{ 
+    display: block
+}
+
+img {
+    width: 100%
+}
