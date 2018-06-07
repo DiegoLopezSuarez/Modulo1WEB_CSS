@@ -1,0 +1,21 @@
+
+
+*,
+*::before, *::after,
+*:before, *:after,
+{
+    box-sizing: border-box;
+}
+header h1 {
+    height:20rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    background-image: url("../assets/disney-logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+.oculto {
+    display: none}
