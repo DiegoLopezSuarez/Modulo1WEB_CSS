@@ -15,7 +15,4 @@ header h1 {
     background-image: url("../assets/disney-logo.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
-    
-.oculto {
-    display: none}
+    background-position: center;}
