@@ -1,0 +1,51 @@
+*,
+*::before, *::after,
+*:before, *:after,
+{
+    box-sizing: border-box;
+}
+
+header
+{ background-image: url('../assets/home-bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main
+{ overflow:auto;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+ section
+ {
+     width: 75%;
+     float: left;
+     padding-right: 3rem
+ }
+
+
+ div
+    {
+        width: 50%;
+        float: left;
+        padding-left: 1rem;
+        padding-right:1rem;
+
+    }
+
+
+
+ aside
+    {
+        padding-left: 3rem;
+        width: 25%;
+        float: left;
+
+    }
+
+    footer
+    {
+        margin-top: 3rem;
+        border-top: 1px;
+    }
