@@ -11,13 +11,41 @@ header
     background-repeat: no-repeat;
     background-size: cover;
 }
+div {
+    display: block
+}
 
+nav
+{
+    position: absolute;
+    float: right;   
+    border: 1px solid;  
+}
+
+ul
+{
+    list-style: none;
+    padding: 0rem;
+}
+
+li
+{
+    display: inline-block;
+    clear: both;
+
+}
+
+h1
+{
+   position: relative;  
+}
 main
 { overflow:auto;
     margin-left: 10%;
     margin-right: 10%;
  }
- section
+
+section
  {
      width: 75%;
      float: left;
@@ -25,7 +53,7 @@ main
  }
 
 
- div
+div
     {
         width: 50%;
         float: left;
@@ -36,7 +64,7 @@ main
 
 
 
- aside
+aside
     {
         padding-left: 3rem;
         width: 25%;
@@ -44,7 +72,7 @@ main
 
     }
 
-    footer
+footer
     {
         margin-top: 3rem;
         border-top: 1px;
