@@ -6,13 +6,27 @@
 }
 
 header
-{ background-image: url('../assets/home-bg.jpg');
+{   position: relative;
+    height:100vh ;
+    
+}
+
+div {
+    position: absolute;
+    display: block;
+    background-image: url('../assets/home-bg.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
-div {
-    display: block
+
+h1
+{
+   position: relative;  
+   clear: both;
+   text-align: center;
+   padding-top: 0;
+
 }
 
 nav
@@ -32,13 +46,9 @@ li
 {
     display: inline-block;
     clear: both;
-
 }
 
-h1
-{
-   position: relative;  
-}
+
 main
 { overflow:auto;
     margin-left: 10%;
