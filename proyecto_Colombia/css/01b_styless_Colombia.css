@@ -16,8 +16,7 @@ body {
 
 header {
 
-    background-color: cyan
-}
+    background-color:black}
 
 h1 {
     display: block;
@@ -26,6 +25,7 @@ h1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    color: azure
   }
 
 .subtitulo {
@@ -36,6 +36,7 @@ h1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    color: azure
   }
 
 .iconoMenu
@@ -43,8 +44,27 @@ h1 {
     font-size: 2rem;
     text-align: right;
     margin-right: 1rem;
+    color: azure
  }
 
+ .menuPrincipal { 
+   
+ }
+
+ nav ul {
+    list-style: none;
+    
+  }
+
+  nav a {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: azure;
+    text-decoration: none;
+    margin-right: 2rem;
+    display: inline-block;
+    vertical-align: 3px;
+    }
+ 
  h2 {
     display: block;
     font-size: 2rem;
@@ -52,7 +72,70 @@ h1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1rem;
+    color: maroon
   }
+
+  img {
+    width: 100% ;
+    margin-top: 1rem;   
+    } 
+
+.cabeceraDatos {text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.lista1Datos{ 
+
+    list-style-type: square;
+}
+
+section {
+       }
+
+h3
+{ 
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: maroon;   
+}
+
+.main_wrapper
+{
+width: 95%;
+margin-left: auto;
+margin-right: auto;
+}
+
+aside
+{ 
+background-color: firebrick
+
+}
+
+h2.aside {
+    color: bisque
+ }
+  
+.listaAside
+{ 
+    color: bisque
+}
+
+footer
+{ color:azure;
+    background-color:black;
+}
+
+.cfoot
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
 
 /* { }
 
@@ -76,36 +159,6 @@ forma de llamarlo desde CSS:
 <i class="fas fa-bars"></i></a>
 
 */
-
-
-nav ul {
-    list-style: none;
-    display:flex;
-  }
-
-  nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  section {
-      min-height:  50vh;
-
-   }
-
-.main_wrapper
-{
-width: 95%;
-margin-left: auto;
-margin-right: auto;
-}
-
-img {
-width: 100%    
-} 
-  
-
-
 
 /*  {}
 
