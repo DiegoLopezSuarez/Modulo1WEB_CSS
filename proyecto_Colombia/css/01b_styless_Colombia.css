@@ -14,14 +14,44 @@ body {
     background-color: beige;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+h1 {
+    display: block;
+    font-size: 4rem;
+    font-family: 'Encode Sans Condensed', sans-serif;
   }
+
+.subtitulo {
+    display: block;
+    font-size: 2rem;
+    margin-top: 0rem;
+    font-family: font-family: 'Roboto', sans-serif;
+  }
+
+/* enlace para meter las dos tipos de letras:
+<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Roboto" rel="stylesheet"> 
+
+y forma de colocarlas en CSS:
+font-family: 'Roboto', sans-serif;
+font-family: 'Encode Sans Condensed', sans-serif;
+
+
+PARA LA HAMBURGUESA
+
+enlace en head:
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" type="text/css" media="screen" 
+
+forma de llamarlo desde CSS: 
+<a href="#bottom-menu">
+<i class="fas fa-bars"></i></a>
+
+*/
+
 
 nav ul {
     list-style: none;
+    display:flex;
   }
 
   nav a {
@@ -29,11 +59,34 @@ nav ul {
     text-decoration: none;
   }
 
+  section {
+      min-height:  50vh;
+
+   }
+
+.main_wrapper
+{
+width: 95%;
+margin-left: auto;
+margin-right: auto;
+}
+
+img {
+width: 100%    
+} 
   
 
 
 
-/*
+/*  {}
+
+Mediaquery O: Mobile
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 header{
     width: 50%;
     float: left;
