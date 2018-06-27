@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body, h1, h2, h3, nav ul, nav li, figure {
+body, h1, h2, h3, nav ul, nav li, img {
     margin: 0;
     padding: 0;
 }
@@ -14,20 +14,49 @@ body {
     background-color: beige;
 }
 
+header {
+
+    background-color: cyan
+}
+
 h1 {
     display: block;
     font-size: 4rem;
     font-family: 'Encode Sans Condensed', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .subtitulo {
     display: block;
     font-size: 2rem;
     margin-top: 0rem;
-    font-family: font-family: 'Roboto', sans-serif;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-/* enlace para meter las dos tipos de letras:
+.iconoMenu
+{
+    font-size: 2rem;
+    text-align: right;
+    margin-right: 1rem;
+ }
+
+ h2 {
+    display: block;
+    font-size: 2rem;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* { }
+
+enlace para meter las dos tipos de letras:
 <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Roboto" rel="stylesheet"> 
 
 y forma de colocarlas en CSS:
