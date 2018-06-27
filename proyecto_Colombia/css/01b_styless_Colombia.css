@@ -47,14 +47,31 @@ h1 {
     color: azure
  }
 
+ nav.menu-desk {
+    display: block;
+    background-color: brown;
+    color: bisque;
+    position: absolute;
+    right: 0;
+    top: 1.2rem;
+  }
+
+  nav.menu-desk ul {
+    display: flex;
+}
+
  .menuPrincipal { 
+     background-color: black; 
+    padding: 1rem;
    
  }
 
  nav ul {
     list-style: none;
-    
+
   }
+
+
 
   nav a {
     font-family: 'Encode Sans Condensed', sans-serif;
@@ -62,9 +79,10 @@ h1 {
     text-decoration: none;
     margin-right: 2rem;
     display: inline-block;
-    vertical-align: 3px;
+   vertical-align: 3px;
     }
- 
+
+
  h2 {
     display: block;
     font-size: 2rem;
@@ -88,7 +106,16 @@ h1 {
 
 .lista1Datos{ 
 
-    list-style-type: square;
+    list-style-type: none;
+    background-color: aliceblue;
+    border: 1px solid;
+    padding: 1rem;
+    padding-left: 1rem;
+}
+
+.field_name
+{
+    font-weight: bold;
 }
 
 section {
