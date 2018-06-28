@@ -47,25 +47,16 @@ h1
 .iconoMenu
 {
     display: block;
-    font-size: 2rem;
-    text-align: left;
-    margin-left: 1rem;
+    font-size: 3rem;
+    text-align: right;
     margin-right: 1rem;
+    padding: 1rem;
     color: azure
 }
 
 nav.menu-superior 
 {
-    display: block;
-    background-color: firebrick;
-    color: azure;
-    position: absolute;
-    right: 0;
-    top: 8rem;
-    padding: 1rem;
-    font-size: 0,5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    display: none;
 }
 
 nav ul 
@@ -194,9 +185,13 @@ footer
     font-size: 1rem;   
 }
 
-@media screen and (min-width: 650px) 
+@media screen and (min-width: 610px) 
 
 {
+    header 
+    {
+        height: 16vh;
+    }
 
     h1 
     {
@@ -210,12 +205,28 @@ footer
 
     .iconoMenu
     {
-    display: block;
-    font-size: 3rem;
-    text-align: left;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    display: none;
     }
+
+    nav.menu-superior 
+    {
+    display: block;
+    background-color: firebrick;
+    color: azure;
+    position: absolute;
+    right: 0;
+    top: 8,7rem;
+    padding: 1rem;
+    font-size: 0,5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    }
+
+    .menu-inferior 
+    { 
+    display: none;
+    }
+
 }
 
     /* EJEMPLO CAMBIOS DEL PROFE AL PASAR A 620 PIXELS DE PANTALLA:
@@ -245,8 +256,13 @@ footer
   */
 
 
-  @media screen and (min-width: 950px) 
+  @media screen and (min-width: 810px) 
   {
+
+    header 
+    {
+        height: 18vh;
+    }
 
     h1 
     {
@@ -261,7 +277,20 @@ footer
     .iconoMenu
     {
     display: none;
-    
+    }
+
+    nav.menu-superior 
+    {
+    display: block;
+    background-color: firebrick;
+    color: azure;
+    position: absolute;
+    right: 2rem;
+    top: 8,7rem;
+    padding: 1rem;
+    font-size: 1,5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     }
 
   }
