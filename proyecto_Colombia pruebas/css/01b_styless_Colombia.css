@@ -217,15 +217,15 @@ footer
     nav.menu-superior 
     {
     display: block;
-    background-color: firebrick;
+    background-color: black;
     color: azure;
-    position: absolute;
-    right: 0;
+    margin-left: 2rem;
     top: 8,7rem;
     padding: 1rem;
     font-size: 0,5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    
     }
 
     .menu-inferior 
@@ -267,7 +267,7 @@ footer
 
     header 
     {
-        height: 25vh;
+        height: 22vh;
     }
 
     h1 
@@ -288,13 +288,12 @@ footer
     nav.menu-superior 
     {
     display: block;
-    background-color: firebrick;
+    background-color:black;
     color: azure;
-    position: absolute;
-    right: 2rem;
-    top: 8,7rem;
+    top: 10,7rem;
+    margin-left: 4rem;
     padding: 1rem;
-    font-size: 1,5rem;
+    font-size: 1.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     }
