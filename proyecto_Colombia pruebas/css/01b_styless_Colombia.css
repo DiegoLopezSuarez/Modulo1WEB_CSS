@@ -327,6 +327,7 @@ nav.finalPagina a
         padding-right: 2rem;
         padding-top: 2rem;
         column-count: 2;
+        column-gap: 3rem;
         
     }
 
