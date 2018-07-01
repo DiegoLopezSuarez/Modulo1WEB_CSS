@@ -70,6 +70,10 @@ nav.menu-superior ul
     display: flex;
 }
 
+/*{
+    display: flex;
+}*/
+
 nav a 
 {
     font-family: 'Encode Sans Condensed', sans-serif;
@@ -84,19 +88,17 @@ nav a
     background-color: firebrick;
     padding: 1rem;
     padding-top: 1rem;
+    padding-left: 2rem;
     padding-bottom: 0.5rem;
-}
-
-nav.hide-menu 
-{
-    display: none;
+    line-height: 1.5rem;
+    display: block;   
 }
 
 article
 {
     margin-top: 4rem
 }
-
+  
 h2 
 {
     display: block;
@@ -154,18 +156,23 @@ h3
 aside
 { 
     background-color:burlywood;
+    line-height: 1.5rem;
+   
 }
 
 h2.aside {
     color: maroon;
     padding: 1rem;
+
  }
 
 .listaAside
 { 
     color: maroon;
     padding: 1rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
+    list-style-type: square;
+  
 }
 
 footer
