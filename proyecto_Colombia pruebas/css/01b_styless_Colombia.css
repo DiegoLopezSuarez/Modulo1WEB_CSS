@@ -325,21 +325,22 @@ nav.finalPagina a
         margin-top: 2rem;
         padding-left: 1rem;
         padding-right: 2rem;
-        padding-top: 2rem;
+        padding-top: 1rem;
         column-count: 2;
         column-gap: 3rem;
+           
         
     }
 
     h3 
     {
-        margin-left: 4rem;
+        margin-left: 5rem;
         margin-top: 2rem;
     }
 
     aside
     {
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
 
     .listaAside
