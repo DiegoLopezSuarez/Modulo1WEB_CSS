@@ -70,10 +70,6 @@ nav.menu-superior ul
     display: flex;
 }
 
-/*{
-    display: flex;
-}*/
-
 nav a 
 {
     font-family: 'Encode Sans Condensed', sans-serif;
@@ -171,7 +167,7 @@ h2.aside {
     color: maroon;
     padding: 1rem;
     margin-left: 2rem;
-    list-style-type: square;
+    list-style-type: none;
   
 }
 
@@ -227,7 +223,6 @@ footer
     font-size: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    
     }
 
     .menu-inferior 
@@ -282,35 +277,6 @@ nav.finalPagina a
 
 }
 
-    
-
-    /* EJEMPLO CAMBIOS DEL PROFE AL PASAR A 620 PIXELS DE PANTALLA:
-    h1 {
-      font-size: 2.3rem;
-      padding-left: 1rem;
-    }
-  
-    .wrapper_flex {
-      display: flex;
-    }
-    .wrapper_flex section {
-      padding-left: 1rem;
-      padding-right: 1rem;
-      flex: 0 1 75%;
-    }
-    .wrapper_flex aside {
-      padding-left: 1rem;
-      padding-right: 1rem;
-      flex: 0 1 25%;
-    }
-  
-    section figure {
-      margin: 0;
-    }
-  }
-  */
-
-
   @media screen and (min-width: 810px) 
   {
 
@@ -355,171 +321,32 @@ nav.finalPagina a
     .main_wrapper
     { 
         margin-left: 4rem;
+        margin-right: 4rem;
+        margin-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        column-count: 2;
+        
     }
 
     h3 
     {
         margin-left: 4rem;
+        margin-top: 2rem;
     }
 
-  }
-
- /*  header h1 {
-      font-size: 2.5rem;
-      padding-left: 2rem;
+    aside
+    {
+        margin-top: 4rem;
     }
-    header nav {
-      display: none;
-    }
-  
-    nav.menu-mobile {
-      display: none;
-    }
-  
-    nav.menu-desk {
-      display: block;
-      background-color: brown;
-      color: bisque;
-      position: absolute;
-      right: 0;
-      top: 1.2rem;
-    }
-    nav.menu-desk ul {
-      display: flex;
-    }
-    nav.menu-desk ul li {
-      position: relative;
-    }
-    nav.menu-desk ul li:hover ul {
-      display: block;
-    }
-    nav.menu-desk a {
-      padding: 0.5rem 1rem;
-      display: block;
-    }
-    nav.menu-desk a:hover {
-      background-color: bisque;
-      color: brown;
-    }
-    nav.menu-desk .submenu {
-      display: none;
-      position: absolute;
-      top: 2rem;
-      left: -2rem;
-      background-color: rgba(165, 53, 53, 0.5);
-    }
-  
-    .wrapper_columns {
-      /* column-count: 2;
-      column-gap: 2rem; */
-      
-      /* display: flex;
-      align-items: flex-start;
-    }
-    .wrapper_columns .wrapper_item_flex {
-      width: 50%;
-      padding: 0 1rem;
-    }
-    .wrapper_columns .wrapper_item_flex p:nth-of-type(1) {
-      margin-top: 0;
-    }
-  
-    section {
-      background-color: #924949;
-    }
-    section h2 {
-      padding-left: 1rem;
-    }
-  }
-  */
 
-
-
-
-/* { }
-
-enlace para meter las dos tipos de letras:
-<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Roboto" rel="stylesheet"> 
-
-y forma de colocarlas en CSS:
-font-family: 'Roboto', sans-serif;
-font-family: 'Encode Sans Condensed', sans-serif;
-
-
-PARA LA HAMBURGUESA
-
-enlace en head:
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
-    <link rel="stylesheet" type="text/css" media="screen" 
-
-forma de llamarlo desde CSS: 
-<a href="#bottom-menu">
-<i class="fas fa-bars"></i></a>
-
-*/
-
-/*  {}
-
-Mediaquery O: Mobile
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-header{
-    width: 50%;
-    float: left;
-    background-color: maroon;
-    color: bisque
-} 
-
-header h1{
-    text-align: center;
-    margin: 0rem;
-    line-height: 4rem;
-}
-
-nav {
-    text-decoration: none;
-    color: inherit;
+    .listaAside
+    {
     
-}
-nav{
-    border: 1px solid silver;
-    width: 50%;
-    float: left;
-} 
-
-nav ul{
-    list-style: none;
-    Border : 1px solid silver;
-    width: 40%;
-    margin: 0%;
-    padding: 0%;
+    column-count: 2;
+    padding-top: 2rem;
     
-}
-nav li{
-    display: block;
-    float: left;
-    width: 18%;
-}  
+    }
 
-nav a {
-    color: inherit;
-    background-color: bisque;
-    text-decoration: none;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    border: solid silver 1px;
-    border-radius: 5%;
-    display: inline-block;
-}
-section{
-    margin-top: 2rem
-}
-*/ 
+  }
