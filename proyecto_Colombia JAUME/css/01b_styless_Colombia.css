@@ -1,0 +1,348 @@
+*,
+*::before, *::after,
+*:before, *:after,
+{
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, nav ul, nav li, img 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    background-color: beige;
+}
+
+header 
+{
+    background-color:black;
+}
+
+h1 
+{
+    display: block;
+    font-size: 4rem;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: azure
+}
+
+.subtitulo 
+{
+    display: block;
+    font-size: 2rem;
+    margin-top: 0rem;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: azure
+}
+
+.iconoMenu
+{
+    display: block;
+    font-size: 2.5rem;
+    text-align: right;
+    margin-right: 1rem;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    color: azure;
+}
+
+nav.menu-superior 
+{
+    display: none;
+}
+
+nav ul 
+{
+    list-style: none;
+}
+
+nav.menu-superior ul 
+{
+    display: flex;
+}
+
+nav a 
+{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: azure;
+    text-decoration: none;
+    margin-right: 2rem;
+    display: inline-block;
+}
+
+.menu-inferior 
+{ 
+    background-color: firebrick;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.5rem;
+    display: block;   
+}
+
+article
+{
+    margin-top: 4rem
+}
+  
+h2 
+{
+    display: block;
+    font-size: 2rem;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    color: maroon
+}
+
+img 
+{
+    width: 100% ;
+    margin-top: 1rem;   
+} 
+
+.cabeceraDatos 
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lista1Datos
+{ 
+    list-style-type: none;
+    background-color: aliceblue;
+    border: 1px solid;
+    padding: 1rem;
+    padding-left: 1rem;
+}
+
+.field_name
+{
+    font-weight: bold;
+}
+
+h3
+{ 
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: maroon;   
+    margin-left: 1rem;
+}
+
+.main_wrapper
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+aside
+{ 
+    background-color:burlywood;
+    line-height: 1.5rem;
+   
+}
+
+h2.aside {
+    color: maroon;
+    padding: 1rem;
+
+ }
+
+.listaAside
+{ 
+    color: maroon;
+    padding: 1rem;
+    margin-left: 2rem;
+    list-style-type: none;
+  
+}
+
+footer
+{ color:azure;
+    background-color:black;
+}
+
+.cfoot
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.finalPagina
+{ 
+    display: none;
+}
+
+@media screen and (min-width: 610px) 
+
+{
+    
+
+    h1 
+    {
+    font-size: 4,5rem;
+    }
+
+    .subtitulo 
+    {
+    font-size: 2,5rem;
+    }
+
+    .iconoMenu
+    {
+    display: none;
+    }
+
+    nav.menu-superior 
+    {
+    display: block;
+    background-color: black;
+    color: azure;
+    margin-left: 2rem;
+    top: 8,7rem;
+    padding: 1rem;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    }
+
+    .menu-inferior 
+    { 
+    display: none;
+    }
+
+    .field_name 
+    { 
+        margin-left: 2rem;
+    }
+
+    .main_wrapper
+    { 
+        margin-left: 2rem;
+    }
+
+    h3 
+    {
+        margin-left: 2rem;
+    }
+
+    .finalPagina
+{ 
+    display: block;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    text-decoration:none;
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;  
+}
+
+nav.finalPagina a
+{
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;  
+}
+
+    .vcard
+    { 
+        font-size: 1.2rem;
+    }
+
+}
+
+  @media screen and (min-width: 810px) 
+  {
+
+    
+
+    h1 
+    {
+    font-size: 5rem;
+    }
+
+    .subtitulo 
+    {
+    font-size: 2,7rem;
+    }
+
+    .iconoMenu
+    {
+    display: none;
+    }
+
+    nav.menu-superior 
+    {
+    display: block;
+    background-color:black;
+    color: azure;
+    top: 10,7rem;
+    margin-left: 4rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    }
+
+    .field_name 
+    { 
+        margin-left: 4rem;
+    }
+
+    .main_wrapper
+    { 
+        margin-left: 4rem;
+        margin-right: 4rem;
+        margin-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        column-count: 2;
+        column-gap: 3rem;
+                
+        
+    }
+
+    h3 
+    {
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+
+    aside
+    {
+        margin-top: 2rem;
+    }
+
+    .listaAside
+    {
+    
+    column-count: 2;
+    padding-top: 2rem;
+    
+    }
+
+  }
